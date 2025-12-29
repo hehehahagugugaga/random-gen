@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=BBH+Bartle&display=swap" rel="stylesheet">
+<style>
+button.s{
+  background-color: white;
+  opacity: 30%;
+  border: solid white 2px;
+  border-radius: 8%;
+  font-size: 20px;
+}
+h1{
+  font-family: "BBH Bartle"
+}
+input.t{
+  opacity:70%;
+  font-size:30px;
+}
+input{
+  opacity: 30%;
+}
+label{
+  font-family: "Orbitron";
+}
+body{
+  background-image: url("https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg")
+}
+</style>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>generator</title>
+</head>
+<body>
+  <h1 style="color: white;">Lets generate!</h1>
+  <form method="post" action="/s">
+    <label style="color: white;">Enter lower number : </label>
+    <input type="number" name="ln"><br><br>
+    <label style="color: white;">Enter upper number : </label>
+    <input type="number" name="un"><br><br>
+    <label style="color: white;">Enter number of chapters you want = </label>
+    <input type="number" name="tn"><br><br>
+     <button class= "s">Click Me</button><br><br>
+  </form>
+    <input class="t" name="op" value="{{result}}">
+</body>
+</html>
