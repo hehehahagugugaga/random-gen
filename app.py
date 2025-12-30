@@ -23,4 +23,4 @@ def second():
 
 
 if __name__ == '__main__':
-    web.run(debug=True)
+    web.run()
